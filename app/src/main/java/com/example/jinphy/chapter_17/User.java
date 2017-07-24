@@ -1,10 +1,12 @@
 package com.example.jinphy.chapter_17;
 
+import java.io.Serializable;
+
 /**
  * Created by jinphy on 2017/7/21.
  */
 
-public class User {
+public class User  implements Serializable{
 
     private String name;
     private String gender;
